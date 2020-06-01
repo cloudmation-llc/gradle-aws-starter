@@ -1,3 +1,4 @@
 plugins {
-    id "com.cloudmation.aws-project"
+    id "com.cloudmation.aws"
+    id "com.cloudmation.aws-cloudformation"
 }

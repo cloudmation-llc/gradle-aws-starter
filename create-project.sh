@@ -11,7 +11,6 @@ rm -Rf .git
 
 # Delete other packaged files not needed for a new project
 rm -f README.md
-rm -f .gitignore
 
 # Create a new empty Git repo as a replacement
 git init

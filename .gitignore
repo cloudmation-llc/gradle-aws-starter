@@ -1,6 +1,5 @@
 .gradle
 .project
-.settings/org.eclipse.buildship.core.prefs
+.settings
 .vscode
 build
-src

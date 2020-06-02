@@ -9,8 +9,9 @@ cd $1
 # Drop the .git directory to disassociate from template repo
 rm -Rf .git
 
-# Delete the packaged README.md
+# Delete other packaged files not needed for a new project
 rm -f README.md
+rm -f .gitignore
 
 # Create a new empty Git repo as a replacement
 git init
